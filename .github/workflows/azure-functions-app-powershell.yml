@@ -18,7 +18,7 @@ jobs:
 
     - name: look for ps1 file
       run: |
-        ls '${{ env.OUTPUT_PATH }}\IaC\AzCLI'
+        ls 'D:\a\Varian\Varian\IaC\AzCLI'
 
     - name: provision virtual machine in azure
       env:
